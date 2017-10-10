@@ -1,3 +1,3 @@
 function ekill
-	emacsclient -e "(kill-emacs)"
+	pkill -SIGUSR2 emacs
 end
